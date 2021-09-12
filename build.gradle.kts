@@ -19,6 +19,8 @@ dependencies {
     compileOnly("io.papermc.paper:paper-api:1.17.1-R0.1-SNAPSHOT")
 
     implementation(kotlin("stdlib"))
+    implementation("io.github.monun:kommand-api:2.6.6")
+    implementation("io.github.monun:tap-api:4.1.2")
 
     testImplementation("org.junit.jupiter:junit-jupiter-api:5.7.2")
     testImplementation("org.junit.jupiter:junit-jupiter-engine:5.7.2")
